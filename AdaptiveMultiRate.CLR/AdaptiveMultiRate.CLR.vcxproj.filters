@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\narrowband">
+      <UniqueIdentifier>{39ca9c95-52b0-4544-8c28-3ade040c5a10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\wideband">
+      <UniqueIdentifier>{45c72e85-31b5-47ad-b5e3-0220889d2059}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="narrowband\framework.h">
+      <Filter>Source Files\narrowband</Filter>
+    </ClInclude>
+    <ClInclude Include="narrowband\interf_dec.h">
+      <Filter>Source Files\narrowband</Filter>
+    </ClInclude>
+    <ClInclude Include="narrowband\interf_enc.h">
+      <Filter>Source Files\narrowband</Filter>
+    </ClInclude>
+    <ClInclude Include="narrowband\interf_rom.h">
+      <Filter>Source Files\narrowband</Filter>
+    </ClInclude>
+    <ClInclude Include="narrowband\pch.h">
+      <Filter>Source Files\narrowband</Filter>
+    </ClInclude>
+    <ClInclude Include="narrowband\rom_dec.h">
+      <Filter>Source Files\narrowband</Filter>
+    </ClInclude>
+    <ClInclude Include="narrowband\rom_enc.h">
+      <Filter>Source Files\narrowband</Filter>
+    </ClInclude>
+    <ClInclude Include="narrowband\sp_dec.h">
+      <Filter>Source Files\narrowband</Filter>
+    </ClInclude>
+    <ClInclude Include="narrowband\sp_enc.h">
+      <Filter>Source Files\narrowband</Filter>
+    </ClInclude>
+    <ClInclude Include="narrowband\typedef.h">
+      <Filter>Source Files\narrowband</Filter>
+    </ClInclude>
+    <ClInclude Include="wideband\dec.h">
+      <Filter>Source Files\wideband</Filter>
+    </ClInclude>
+    <ClInclude Include="wideband\dec_acelp.h">
+      <Filter>Source Files\wideband</Filter>
+    </ClInclude>
+    <ClInclude Include="wideband\dec_dtx.h">
+      <Filter>Source Files\wideband</Filter>
+    </ClInclude>
+    <ClInclude Include="wideband\dec_gain.h">
+      <Filter>Source Files\wideband</Filter>
+    </ClInclude>
+    <ClInclude Include="wideband\dec_if.h">
+      <Filter>Source Files\wideband</Filter>
+    </ClInclude>
+    <ClInclude Include="wideband\dec_lpc.h">
+      <Filter>Source Files\wideband</Filter>
+    </ClInclude>
+    <ClInclude Include="wideband\dec_main.h">
+      <Filter>Source Files\wideband</Filter>
+    </ClInclude>
+    <ClInclude Include="wideband\dec_util.h">
+      <Filter>Source Files\wideband</Filter>
+    </ClInclude>
+    <ClInclude Include="wideband\enc.h">
+      <Filter>Source Files\wideband</Filter>
+    </ClInclude>
+    <ClInclude Include="wideband\enc_acelp.h">
+      <Filter>Source Files\wideband</Filter>
+    </ClInclude>
+    <ClInclude Include="wideband\enc_dtx.h">
+      <Filter>Source Files\wideband</Filter>
+    </ClInclude>
+    <ClInclude Include="wideband\enc_gain.h">
+      <Filter>Source Files\wideband</Filter>
+    </ClInclude>
+    <ClInclude Include="wideband\enc_if.h">
+      <Filter>Source Files\wideband</Filter>
+    </ClInclude>
+    <ClInclude Include="wideband\enc_lpc.h">
+      <Filter>Source Files\wideband</Filter>
+    </ClInclude>
+    <ClInclude Include="wideband\enc_main.h">
+      <Filter>Source Files\wideband</Filter>
+    </ClInclude>
+    <ClInclude Include="wideband\enc_util.h">
+      <Filter>Source Files\wideband</Filter>
+    </ClInclude>
+    <ClInclude Include="wideband\if_rom.h">
+      <Filter>Source Files\wideband</Filter>
+    </ClInclude>
+    <ClInclude Include="wideband\typedef.h">
+      <Filter>Source Files\wideband</Filter>
+    </ClInclude>
+    <ClInclude Include="wideband\enc_rom.h">
+      <Filter>Source Files\wideband</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="flat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="narrowband\interf_dec.cpp">
+      <Filter>Source Files\narrowband</Filter>
+    </ClCompile>
+    <ClCompile Include="narrowband\interf_enc.cpp">
+      <Filter>Source Files\narrowband</Filter>
+    </ClCompile>
+    <ClCompile Include="narrowband\pch.cpp">
+      <Filter>Source Files\narrowband</Filter>
+    </ClCompile>
+    <ClCompile Include="narrowband\sp_dec.cpp">
+      <Filter>Source Files\narrowband</Filter>
+    </ClCompile>
+    <ClCompile Include="narrowband\sp_enc.cpp">
+      <Filter>Source Files\narrowband</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wideband\dec_acelp.cpp">
+      <Filter>Source Files\wideband</Filter>
+    </ClCompile>
+    <ClCompile Include="wideband\dec_dtx.cpp">
+      <Filter>Source Files\wideband</Filter>
+    </ClCompile>
+    <ClCompile Include="wideband\dec_gain.cpp">
+      <Filter>Source Files\wideband</Filter>
+    </ClCompile>
+    <ClCompile Include="wideband\dec_if.cpp">
+      <Filter>Source Files\wideband</Filter>
+    </ClCompile>
+    <ClCompile Include="wideband\dec_lpc.cpp">
+      <Filter>Source Files\wideband</Filter>
+    </ClCompile>
+    <ClCompile Include="wideband\dec_main.cpp">
+      <Filter>Source Files\wideband</Filter>
+    </ClCompile>
+    <ClCompile Include="wideband\dec_rom.h">
+      <Filter>Source Files\wideband</Filter>
+    </ClCompile>
+    <ClCompile Include="wideband\dec_util.cpp">
+      <Filter>Source Files\wideband</Filter>
+    </ClCompile>
+    <ClCompile Include="wideband\enc_acelp.cpp">
+      <Filter>Source Files\wideband</Filter>
+    </ClCompile>
+    <ClCompile Include="wideband\enc_dtx.cpp">
+      <Filter>Source Files\wideband</Filter>
+    </ClCompile>
+    <ClCompile Include="wideband\enc_gain.cpp">
+      <Filter>Source Files\wideband</Filter>
+    </ClCompile>
+    <ClCompile Include="wideband\enc_if.cpp">
+      <Filter>Source Files\wideband</Filter>
+    </ClCompile>
+    <ClCompile Include="wideband\enc_lpc.cpp">
+      <Filter>Source Files\wideband</Filter>
+    </ClCompile>
+    <ClCompile Include="wideband\enc_main.cpp">
+      <Filter>Source Files\wideband</Filter>
+    </ClCompile>
+    <ClCompile Include="wideband\enc_util.cpp">
+      <Filter>Source Files\wideband</Filter>
+    </ClCompile>
+    <ClCompile Include="wideband\encoder.cpp">
+      <Filter>Source Files\wideband</Filter>
+    </ClCompile>
+    <ClCompile Include="wideband\decoder.cpp">
+      <Filter>Source Files\wideband</Filter>
+    </ClCompile>
+    <ClCompile Include="flat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AdaptiveMultiRate.CLR.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

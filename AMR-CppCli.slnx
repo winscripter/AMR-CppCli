@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="AdaptiveMultiRate.CLR/AdaptiveMultiRate.CLR.vcxproj" Id="654fb80c-9bff-4699-92d5-d593481ca37d" />
+</Solution>
